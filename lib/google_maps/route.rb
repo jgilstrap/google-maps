@@ -33,6 +33,10 @@ module Google
       def destination_latlong
         "#{end_location.lat},#{end_location.lng}"
       end
+      
+      def overview_polyline
+        route.overview_polyline
+      end
 
       private
 
